@@ -4,7 +4,8 @@ const data = {
   birthDate: '14/08/1988',
   address: 'Zacatecas, México',
   location: 'https://www.google.com/maps/@22.7747798,-102.5858141,14z',
-  website: 'portfolio.raikel.work',
+  website: 'https://raikel.github.io/portfolio/',
+  resume: 'https://raikel.github.io/portfolio/raikel_cv_2020.pdf',
   profile: 'Creative software developer dedicated to design and implement high quality, user-friendly and feature-rich software products. Passionate about building things by coding and acquire new skills every day. Strong attention to detail, excellent problem solving skills and ability to work in a fast-paced team environment.',
   experience: [{
     dates: '06/2019 - Present',
@@ -132,10 +133,10 @@ const data = {
     items: [
       { name: 'Django', time: '+4 years', logo: 'images/logo-django.svg' },
       { name: 'Django RF', time: '+4 years', logo: 'images/logo-drf.png' },
-      { name: 'Vue', time: '+2 years', logo: 'images/logo-vue.svg' },
+      { name: 'Vue.js', time: '+2 years', logo: 'images/logo-vue.svg' },
       { name: 'Quasar', time: '+1 year', logo: 'images/logo-quasar.png' },
-      { name: 'HTML', time: '+8 years', logo: 'images/logo-html.svg' },
-      { name: 'CSS', time: '+8 years', logo: 'images/logo-css.svg' },
+      { name: 'HTML 5', time: '+8 years', logo: 'images/logo-html.svg' },
+      { name: 'CSS 3', time: '+8 years', logo: 'images/logo-css.svg' },
       { name: 'Flutter', time: '1 year', logo: 'images/logo-flutter.svg' },
       { name: 'Android', time: '+2 years', logo: 'images/logo-android.svg' }
     ]
@@ -151,8 +152,8 @@ const data = {
     items: [
       { name: 'Ansible', time: '1 year', logo: 'images/logo-ansible.svg' },
       { name: 'AWS EC2', time: '+1 year', logo: 'images/logo-awsec2.svg' },
-      { name: 'Linux Systems', time: '+8 year', logo: 'images/logo-linux.svg' },
-      { name: 'Git', time: '+5 year', logo: 'images/logo-git.svg' }
+      { name: 'Linux OS', time: '+8 year', logo: 'images/logo-linux.svg' },
+      { name: 'Git/Github', time: '+5 year', logo: 'images/logo-git.svg' }
     ]
   }, {
     title: 'UI Design',

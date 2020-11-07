@@ -8,12 +8,13 @@
       :birth-date="birthDate"
       :address="address"
       :email="email"
+      :resume="resume"
     />
 
     <section :id="navLinks.resume.key" class="ftco-section ftco-no-pb goto-here">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 d-none d-sm-block">
             <nav id="navi">
               <ul>
                 <li><a href="#resume-experience">Experience</a></li>
@@ -25,7 +26,7 @@
           </div>
 
           <div class="col-md-9">
-            <div id="resume-experience" class="page two">
+            <div id="resume-experience" class="page one">
               <h2 class="heading">
                 Experience
               </h2>
@@ -40,7 +41,7 @@
               />
             </div>
 
-            <div id="resume-education" class="page one">
+            <div id="resume-education" class="page two">
               <h2 class="heading">
                 Education
               </h2>
@@ -95,7 +96,7 @@
 
     <section :id="navLinks.services.key" class="ftco-section">
       <div class="container-fluid px-md-5">
-        <div class="row justify-content-center py-5 mt-5">
+        <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-12 heading-section text-center ftco-animate">
             <h2 class="mb-4">
               Services
@@ -121,7 +122,7 @@
 
     <section :id="navLinks.projects.key" class="ftco-section">
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
+        <div class="row justify-content-center mb-5 pb-3 pb-sm-0">
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h2 class="mb-4">
               Projects Gallery

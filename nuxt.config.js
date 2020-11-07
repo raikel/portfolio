@@ -2,6 +2,10 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
+  router: {
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/portfolio/' : '/'
+  },
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Raikel Portfolio',
@@ -89,4 +93,4 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   }
-}
+};

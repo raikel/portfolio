@@ -52,8 +52,10 @@
                 <span class="number mr-2" data-number="18">0</span>
                 <span>Project complete</span>
               </p>
-              <p class="text-right">
-                <a href="#" class="btn btn-primary py-3 px-3">Download CV</a>
+              <p v-if="resume" class="text-right">
+                <a :href="resume" class="btn btn-primary py-3 px-3">
+                  Download CV
+                </a>
               </p>
             </div>
           </div>
@@ -85,6 +87,10 @@ export default {
       default: ''
     },
     address: {
+      type: String,
+      default: ''
+    },
+    resume: {
       type: String,
       default: ''
     }

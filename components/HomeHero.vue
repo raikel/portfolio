@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-    <div class="mouse">
+    <div class="mouse d-none d-sm-block">
       <a href="#" class="mouse-icon">
         <div class="mouse-wheel">
           <span class="icon-arrow_downward" />

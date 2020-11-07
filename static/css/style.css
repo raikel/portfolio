@@ -8694,14 +8694,22 @@ h1, h2, h3, h4, h5,
 
 .page {
   width: 100%;
-  margin-bottom: 7em; }
-  .page.four {
-    margin-bottom: 0; }
-  .page .heading {
-    font-weight: 800;
-    font-size: 30px;
-    margin-bottom: 30px;
-    color: #3e64ff; }
+  margin-bottom: 7em;
+}
+@media (max-width: 767.98px) {
+  .page {
+    margin-bottom: 3em;
+  }
+}
+.page.four {
+  margin-bottom: 0;
+}
+.page .heading {
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #3e64ff;
+}
 
 .resume-wrap {
   width: 100%;
@@ -9056,16 +9064,21 @@ textarea.form-control {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
   .about-author .desc h3 {
-    font-size: 24px; }
+    font-size: 24px;
+  }
 
 .ftco-section {
-  padding: 7em 0;
-  position: relative; }
-  @media (max-width: 767.98px) {
-    .ftco-section {
-      padding: 6em 0; } }
+  padding: 4em 0;
+  position: relative;
+}
+@media (max-width: 767.98px) {
+  .ftco-section {
+    padding: 3em 0;
+  }
+}
 
 .ftco-no-pt {
   padding-top: 0 !important; }

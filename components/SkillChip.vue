@@ -7,10 +7,10 @@
       <img :src="image" :alt="title" :style="{'padding': size/4 + 'px'}">
     </div>
     <div :style="{'padding-right': size/2 + 'px'}">
-      <div class="font-weight-bold" style="color: #000">
+      <div class="skill-title font-weight-bold" style="color: #000">
         {{ title }}
       </div>
-      <div class="small text-gray">
+      <div class="skill-subtitle small text-gray">
         {{ subtitle }}
       </div>
     </div>
@@ -56,6 +56,12 @@ export default {
 .skill-chip img {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .skill-chip .skill-subtitle {
+    display: none;
+  }
 }
 
 </style>
