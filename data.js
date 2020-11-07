@@ -10,7 +10,7 @@ const data = {
   experience: [{
     dates: '06/2019 - Present',
     location: 'Zacatecas, Mexico',
-    position: 'Software Development Team Lead',
+    position: 'Software Developer',
     company: 'Altest',
     work: [
       'Improved software development workflows by promoting development methodologies (scrum, kanban), tools (Git, GitHub, Ansible, web frameworks) and team collaboration.',
@@ -165,7 +165,7 @@ const data = {
   }],
   services: [{
     title: 'Full Stack Development',
-    info: 'I develop API-driven applications backends using Django and Django Rest Framework and build responsive websites and single page web apps using Vue.',
+    info: 'I develop API-driven applications backends using Django and Django Rest Framework. I also build responsive websites and single page web apps using Vue.',
     image: 'images/programming.svg'
   }, {
     title: 'Mobile App Development',
@@ -173,11 +173,11 @@ const data = {
     image: 'images/mobile-app.svg'
   }, {
     title: 'Data Science & AI',
-    info: 'I implement and deploy deep learning models for computer vision or specific use cases. I also developing production ready web scrapers for data analysis.',
+    info: 'I implement and deploy deep learning models for computer vision or specific use cases. I also develop production ready web scrapers for data analysis.',
     image: 'images/data-science.svg'
   }, {
     title: 'Cloud Management',
-    info: 'I automate the full deployment of applications the cloud with Ansible and manage websites on virtual machine instances (database, web server, security).',
+    info: 'I automate the full deployment of applications to the cloud with Ansible and manage websites on virtual machine instances (database, web server, security).',
     image: 'images/cloud-servers.svg'
   }, {
     title: 'UI/UX Design',

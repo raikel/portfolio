@@ -22,7 +22,7 @@ export default {
     link: [{
       rel: 'icon',
       type: 'image/x-icon',
-      href: '/favicon.ico'
+      href: 'favicon.ico'
     }, {
       rel: 'stylesheet',
       href: 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700'
