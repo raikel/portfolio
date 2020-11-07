@@ -64,17 +64,9 @@ AOS.init({
     $this.find('.dropdown-menu').addClass('show');
   }, function() {
     const $this = $(this);
-    // timer;
-    // timer = setTimeout(function(){
     $this.removeClass('show');
     $this.find('> a').attr('aria-expanded', false);
-    // $this.find('.dropdown-menu').removeClass('animated-fast fadeInUp show');
     $this.find('.dropdown-menu').removeClass('show');
-    // }, 100);
-  });
-
-  $('#dropdown04').on('show.bs.dropdown', function() {
-    console.log('show');
   });
 
   // scroll
@@ -124,7 +116,6 @@ AOS.init({
         $('.number').each(function() {
           const $this = $(this);
           const num = $this.data('number');
-          console.log(num);
           $this.animateNumber(
             {
               number: num,
