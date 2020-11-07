@@ -90,4 +90,5 @@ sw.*
 *.swp
 
 # Compressed dist file
-dist.zip
+screens
+gitpush.sh
