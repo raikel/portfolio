@@ -8,11 +8,11 @@ const data = {
   resume: 'https://raikel.github.io/portfolio/raikel_cv_2021.pdf',
   profile: 'Creative software developer dedicated to design and implement high quality, user-friendly and feature-rich software products. Passionate about building things by coding and acquire new skills every day. Strong attention to detail, excellent problem solving skills and ability to work in a fast-paced team environment.',
   experience: [{
-    dateLimits: '01/2021 - Present',
+    dates: '01/2021 - Present',
     location: 'Home Office',
-    positionTitle: 'Software Engineer',
-    companyName: 'Eva Health',
-    workDone: [
+    position: 'Software Engineer',
+    company: 'Eva Health',
+    work: [
       'Proposed and implemented architectural changes in the center software that eventually would reduce the downtime due to internet connectivity issues and faults in the communication between devices',
       'Developed a completely new version of the center server with API <b>Django</b> and <b>Django REST framework</b> (<em>Python</em>). This API included several services that communicated with hardware devices (smart lights, thermal cameras) and a remote server',
       'Refactored part of the code that interact with a thermal camera in order to reduce downtime due to connectivity and faults in proprietary vendor software. Used <b>Falkon</b> framework at a basic level (<em>Python</em>).',
@@ -20,7 +20,9 @@ const data = {
       'Learned React Native and TypeScript in approximately one month and used the acquired skills to refactor two mobile apps in order to adapt them to the proposed architectural changes.',
       'Provided remote support to center managers to solve software and hardware issues, simultaneously to the coding work.',
       'Deployed existing projects to new centers using <b>Ansible</b> as automation tool.'
-  ]}, {
+  ], 
+  short: 'Proposed and implemented architectural changes in the center software that eventually would reduce the downtime due to internet connectivity issues and faults in the communication between devices. Refactored part of the code that interact with a thermal camera in order to reduce downtime due to connectivity and faults in proprietary vendor software.'
+  }, {
     dates: '06/2019 - 01/2021',
     location: 'Zacatecas, Mexico',
     position: 'Software Engineer',
