@@ -42,7 +42,19 @@ export default {
       rel: 'stylesheet',
       href: 'css/style.css'
     }],
+    __dangerouslyDisableSanitizers: ['script'],
     script: [{
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-0N5CFQNDGB',
+      defer: true
+    }, {
+      innerHTML:
+        `window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-0N5CFQNDGB');`,
+      type: 'text/javascript',
+      charset: 'utf-8'
+    }, {
       src: 'js/jquery.min.js',
       body: true
     }, {

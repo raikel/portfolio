@@ -5,16 +5,29 @@ const data = {
   address: 'Zacatecas, México',
   location: 'https://www.google.com/maps/@22.7747798,-102.5858141,14z',
   website: 'https://raikel.github.io/portfolio/',
-  resume: 'https://raikel.github.io/portfolio/raikel_cv_2020.pdf',
+  resume: 'https://raikel.github.io/portfolio/raikel_cv_2021.pdf',
   profile: 'Creative software developer dedicated to design and implement high quality, user-friendly and feature-rich software products. Passionate about building things by coding and acquire new skills every day. Strong attention to detail, excellent problem solving skills and ability to work in a fast-paced team environment.',
   experience: [{
-    dates: '06/2019 - Present',
+    dateLimits: '01/2021 - Present',
+    location: 'Home Office',
+    positionTitle: 'Software Engineer',
+    companyName: 'Eva Health',
+    workDone: [
+      'Proposed and implemented architectural changes in the center software that eventually would reduce the downtime due to internet connectivity issues and faults in the communication between devices',
+      'Developed a completely new version of the center server with API <b>Django</b> and <b>Django REST framework</b> (<em>Python</em>). This API included several services that communicated with hardware devices (smart lights, thermal cameras) and a remote server',
+      'Refactored part of the code that interact with a thermal camera in order to reduce downtime due to connectivity and faults in proprietary vendor software. Used <b>Falkon</b> framework at a basic level (<em>Python</em>).',
+      'Developed a small REST API in <b>C++</b> using <b>Crow</b> framework to interface a FLIR thermal camera with the <b>eBUS SDK</b>',
+      'Learned React Native and TypeScript in approximately one month and used the acquired skills to refactor two mobile apps in order to adapt them to the proposed architectural changes.',
+      'Provided remote support to center managers to solve software and hardware issues, simultaneously to the coding work.',
+      'Deployed existing projects to new centers using <b>Ansible</b> as automation tool.'
+  ]}, {
+    dates: '06/2019 - 01/2021',
     location: 'Zacatecas, Mexico',
-    position: 'Software Developer',
+    position: 'Software Engineer',
     company: 'Altest',
     work: [
-      'Improved software development workflows by promoting development methodologies (scrum, kanban), tools (Git, GitHub, Ansible, web frameworks) and team collaboration.',
-      'Reduced the overall software development cycle time to the half by introducing an <b>API</b> driven architecture, the use of modern <em>JavaScript</em> frameworks like <b>Vue</b> and automated deployment tools, like <b>Ansible</b>.',
+      'Improved software development workflows by promoting development methodologies (scrum, kanban) and tools (Git, GitHub, Ansible, web frameworks).',
+      'Reduced the overall software development cycle time by introducing an <b>API</b> driven architecture, the use of modern <em>JavaScript</em> frameworks like <b>Vue</b> and automated deployment tools, like <b>Ansible</b>.',
       'Developed a <b>web scraper</b> to analyze vehicle market data from main online vendors using <b>Scrapy</b> (<em>Python</em>).',
       'Developed a <b>REST API</b> web platform for vehicle market analysis from scraped data, using <b>Django</b> and <b>Django REST framework</b> (<em>Python</em>).',
       'Designed and developed a single page web application to interface the vehicle market API, using <b>Vue</b> and <b>Quasar</b> (<em>JavaScript</em>, <em>HTML</em>, <em>CSS</em>).',
@@ -131,21 +144,21 @@ const data = {
   skills: [{
     title: 'Web and mobile development',
     items: [
-      { name: 'Django', time: '+4 years', logo: 'images/logo-django.svg' },
-      { name: 'Django RF', time: '+4 years', logo: 'images/logo-drf.png' },
-      { name: 'Vue.js', time: '+2 years', logo: 'images/logo-vue.svg' },
-      { name: 'Quasar', time: '+1 year', logo: 'images/logo-quasar.png' },
+      { name: 'Django', time: '+5 years', logo: 'images/logo-django.svg' },
+      { name: 'Django RF', time: '+5 years', logo: 'images/logo-drf.png' },
+      { name: 'Vue.js', time: '+3 years', logo: 'images/logo-vue.svg' },
+      { name: 'Quasar', time: '+2 year', logo: 'images/logo-quasar.png' },
       { name: 'HTML 5', time: '+8 years', logo: 'images/logo-html.svg' },
       { name: 'CSS 3', time: '+8 years', logo: 'images/logo-css.svg' },
-      { name: 'Flutter', time: '1 year', logo: 'images/logo-flutter.svg' },
+      { name: 'Flutter', time: '2 year', logo: 'images/logo-flutter.svg' },
       { name: 'Android', time: '+2 years', logo: 'images/logo-android.svg' }
     ]
   }, {
     title: 'Machine learning',
     items: [
       { name: 'Pytorch', time: '+2 years', logo: 'images/logo-pytorch.svg' },
-      { name: 'OpenCv', time: '+3 years', logo: 'images/logo-opencv.svg' },
-      { name: 'TensorFlow', time: '+1 year', logo: 'images/logo-tensorflow.svg' }
+      { name: 'OpenCv', time: '+8 years', logo: 'images/logo-opencv.svg' },
+      { name: 'TensorFlow', time: '+2 year', logo: 'images/logo-tensorflow.svg' }
     ]
   }, {
     title: 'Other Skills',
@@ -190,47 +203,47 @@ const data = {
   }],
   projects: [{
     title: 'ACMA SPA',
-    info: 'Automated Car Market Analysis, SPA frontend',
+    info: 'Automated Car Market Analysis, SPA frontend (Vue, Quasar)',
     image: 'images/project_acma_spa.jpg',
     date: 'Aug. 2020 - Nov. 2020'
   }, {
     title: 'ACMA API',
-    info: 'Automated Car Market Analysis, API backend',
+    info: 'Automated Car Market Analysis, API backend (Django Rest Framework)',
     image: 'images/project_acma_api.jpg',
     date: 'Aug. 2020 - Nov. 2020'
   }, {
     title: 'SICAF SPA',
-    info: 'RFID Asset Management Platform, SPA frontend',
+    info: 'RFID Asset Management Platform, SPA frontend (Vue, Quasar)',
     image: 'images/project_sicaf_spa.jpg',
     date: 'May 2020 - Aug. 2020'
   }, {
     title: 'SICAF API',
-    info: 'RFID Asset Management Platform, API backend',
+    info: 'RFID Asset Management Platform, API backend (Django Rest Framework)',
     image: 'images/project_sicaf_api.jpg',
     date: 'May 2020 - Aug. 2020'
   }, {
     title: 'SICAF APP',
-    info: 'RFID Asset Management Platform, Android App',
+    info: 'RFID Asset Management Platform, Android App (Flutter, Android SDK)',
     image: 'images/project_sicaf_app.jpg',
     date: 'May 2020 - Aug. 2020'
   }, {
     title: 'SICAF ZLP',
-    info: 'RFID tags printing interface to Zebra printers',
+    info: 'RFID tags printing interface to Zebra printers (Java)',
     image: 'images/project_sicaf_zlp.jpg',
     date: 'May 2020 - Aug. 2020'
   }, {
     title: 'DNFAS SPA',
-    info: 'Face analysis platform with deep learning, SPA frontend',
+    info: 'Face analysis platform with deep learning, SPA frontend (Vue)',
     image: 'images/project_dnfas_spa.jpg',
     date: 'Feb. 2020 - May. 2020'
   }, {
     title: 'ANVID',
-    info: 'Application to make annotations on videos, Desktop App',
+    info: 'Application to make annotations on videos, Desktop App (PyQt, Pytorch)',
     image: 'images/project_anvid.jpg',
     date: 'Dic. 2019 - Jan. 2020'
   }, {
     title: 'MCROPS',
-    info: 'Library for analysis of images of crop fields, Python Package',
+    info: 'Library for analysis of images of crop fields, (Python, OpenCv)',
     image: 'images/project_mcrops.jpg',
     date: 'Jan. 2019 - May. 2019'
   }],
