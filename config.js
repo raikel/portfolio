@@ -15,11 +15,6 @@ const config = {
       name: 'Resume',
       href: '#resume'
     },
-    services: {
-      key: 'services',
-      name: 'Services',
-      href: '#services'
-    },
     projects: {
       key: 'projects',
       name: 'Projects',

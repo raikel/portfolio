@@ -9,6 +9,7 @@
       :address="address"
       :email="email"
       :resume="resume"
+      :anchor-id="navLinks.about.key"
     />
 
     <section :id="navLinks.resume.key" class="ftco-section ftco-no-pb goto-here">
@@ -94,7 +95,7 @@
       </div>
     </section>
 
-    <section :id="navLinks.services.key" class="ftco-section">
+    <section v-if="showServices" :id="navLinks.services.key" class="ftco-section">
       <div class="container-fluid px-md-5">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-12 heading-section text-center ftco-animate">
@@ -231,7 +232,8 @@ export default {
   data() {
     return {
       ...data,
-      navLinks: config.navLinks
+      navLinks: config.navLinks,
+      showServices: false
     };
   }
 };

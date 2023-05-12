@@ -15,8 +15,9 @@
                 class="txt-rotate"
                 data-period="2000"
                 :data-rotate="JSON.stringify([
-                  'Full Stack Developer',
-                  'Python Developer'
+                  'Backend Engineer',
+                  'Python Developer',
+                  'JavaScript Developer'
                 ])"
               />
             </h2>

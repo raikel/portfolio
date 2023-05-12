@@ -1,6 +1,6 @@
 <template>
   <section
-    id="about-section"
+    :id="anchorId"
     class="ftco-about img ftco-section ftco-no-pt ftco-no-pb"
   >
     <div class="container">
@@ -49,7 +49,7 @@
           <div class="counter-wrap ftco-animate d-flex mt-md-3">
             <div class="text w-100">
               <p class="mb-4">
-                <span class="number mr-2" data-number="18">0</span>
+                <span class="number mr-2" data-number="24">0</span>
                 <span>Project complete</span>
               </p>
               <p v-if="resume" class="text-right">
@@ -93,6 +93,10 @@ export default {
     resume: {
       type: String,
       default: ''
+    },
+    anchorId: {
+      type: String,
+      required: true
     }
   }
 };
