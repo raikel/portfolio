@@ -1,7 +1,7 @@
 const data = {
   fullName: 'Raikel Bordón López',
   email: 'raikelbl@gmail.com',
-  birthDate: '14/08/1988',
+  birthDate: undefined,
   address: 'Zacatecas, México',
   location: 'https://www.google.com/maps/@22.7747798,-102.5858141,14z',
   website: 'https://raikel.github.io/portfolio/',
